@@ -1,0 +1,92 @@
+﻿body {
+    font-family: Times New Roman, Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    background-color: #7d5e7f;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.logo-text {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    .logo-text h1 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 200;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+    nav a:hover {
+        color: #e9d9f9;
+    }
+
+/*.navbar a img {
+    display: flex;
+    justify-content: start;
+    width: 20%;
+}*/
+
+.logoIMG {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 15%;
+    height: 25%;
+}
+
+.section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .section h2 {
+        text-align: center;
+        color: #7d5e7f;
+    }
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #a99d9d;
+    color: white;
+    margin-top: 2rem;
+}
